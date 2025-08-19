@@ -202,7 +202,7 @@ def days_keyboard(admin_id=None):
 @dp.message(Command("mymenu"))
 async def admin_menu(msg: types.Message):
     if not is_admin(msg):
-        await msg.answer("Вы не добавлены как админ. Используйте /addadmin <id> <имя> чтобы добавить себя.")
+        await msg.answer("Вы не добавлены как админ.")
         return
     admin_id = str(msg.from_user.id)
     work = load_work_settings(admin_id)
