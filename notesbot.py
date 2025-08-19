@@ -172,7 +172,7 @@ def is_owner(msg):
 @dp.message(Command("new"))
 async def new_entry(msg: types.Message, state: FSMContext):
     if not is_admin(msg):
-        await msg.answer("Вы не добавлены как админ. Используйте /addadmin <id> <имя> чтобы добавить себя.")
+        await msg.answer("Вы не добавлены как админ.")
         return
     kb = days_keyboard(str(msg.from_user.id))
     await msg.answer("Выберите день для записи:", reply_markup=kb)
