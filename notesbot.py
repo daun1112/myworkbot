@@ -26,7 +26,7 @@ dp = Dispatcher()
 SCHEDULE_FILE = 'schedule.json'
 EVEN_DAYS = [1, 3, 5]  # вторник, четверг, суббота (0-пн)
 ADMINS_FILE = 'admins.json'
-LOG_CHAT_ID = -1002732362235
+LOG_CHAT_ID = -1002896440718
 
 # Для хранения id сообщения с графиком каждого админа
 ADMINS_LOG_MSGS_FILE = 'admins_log_msgs.json'
