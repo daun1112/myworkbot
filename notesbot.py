@@ -17,7 +17,7 @@ logging.basicConfig(
     filemode="a"
 )
 
-API_TOKEN = '8316022324:AAGzMYcAbYNPTKLQD92RmeqiEyth3D2WiJk'
+API_TOKEN = 'хуйте'
 ADMIN_ID = 5675745209  # ваш Telegram ID
 
 bot = Bot(token=API_TOKEN)
